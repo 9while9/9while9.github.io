@@ -1,0 +1,290 @@
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: forestgreen;
+}
+
+body {
+   /* width: 90%; */
+    margin: auto;
+    background-color: darkseagreen;
+    font-size: 18px;
+    font-family: Rokkitt;
+    height: 100vh;
+    /* Does this background image repeat or what? */
+}
+
+h1 {
+    color: darkred;
+    font-family: cairo;
+    margin-bottom: -30px;
+}
+
+h3 {
+    color: darkred;
+    font-family: cairo;
+    padding-left: 20px;
+}
+
+img {
+    border: 2px solid forestgreen;
+    border-radius: 2px;
+    height: auto;
+    margin-top: 15px;
+    max-width: 100%;
+}
+
+
+.nav {
+  text-align: center;
+  border: 3px solid forestgreen;
+  width: 55%;
+  background-color: azure;
+  margin: auto;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 3px 0px;
+  font-family: cairo;
+
+}
+
+.nav li {
+  color: black;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: bold;
+  height: 100%;
+  margin: 0px 0px 11px 0px;
+  padding: 20px 80px;
+
+
+}
+
+
+/* Index Code */
+
+.fp {
+    background-image: url(images/pins.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#nav {
+    width: 22%;
+    padding: 20px 20px 0px 10px;
+    font-family: cairo;
+}
+
+#nav li {
+    display: block;
+    border: 3px solid forestgreen;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    padding: 10px 10px 10px 15px;
+    font-weight: bold;
+ 
+}
+
+#title1 {
+    text-align: right;
+    margin-top: 525px;
+    color: forestgreen;
+    font-family: cairo;
+    padding-right: 30px;
+}
+
+
+/* Main Page */
+
+.container {
+    width: 75%;
+    margin: auto;
+    
+    
+}
+
+.pic {
+    padding-top: 20px;
+    width: 50%;
+   
+    
+}
+
+.pin {
+    
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    border: 1px solid black;
+    padding: 5px 15px 15px 15px;
+    border-radius: 6px;
+    background-color: azure;
+    margin-bottom: 20px;
+    
+}
+
+
+.price img {
+    margin: 100px; /* not responsive anymore */
+
+}
+
+.price .pic {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    
+}
+
+.price .pic2 {
+    position: absolute;
+    top: -70px;
+    left: -150px;
+}
+
+.text {
+    margin-right: 70px;
+/*    background-color: darkseagreen; */
+    padding: 0px ;
+    padding-left: 20px;
+    width: 50%;
+}
+
+
+
+/* Exhibition Code */
+
+.exhibits {
+    width: 84%;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: azure;
+    border: 2px solid forestgreen;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+ 
+
+}
+
+.ch {
+    margin: auto;
+}
+
+.imgs {
+    margin: auto;
+  
+}
+
+.imgs 3 {
+    margin: auto;
+}
+
+.imgs img {
+    padding: 20px;
+}
+
+
+/* Resources Code */
+
+.go {
+    background-color: azure;
+    border: 2px solid forestgreen;
+    border-bottom-right-radius: 150px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px 0px 30px 70px;
+}
+
+.read {
+   
+    background-color: azure;
+    border: 2px solid forestgreen;
+    border-top-left-radius: 150px;
+    margin: auto;
+    padding: 20px 0px 30px 70px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.sources {
+    font-size: 21px;
+    margin: auto;
+    width: 55%;
+    
+ 
+}
+
+.sources h1 {
+    margin: auto;
+}
+
+.sources li {
+    padding: 3px;
+}
+
+.sources ul {
+    margin-left: 20px; 
+}
+
+.buy {
+       
+    background-color: azure;
+    border: 2px solid forestgreen;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px 0px 30px 70px;
+    
+}
+
+
+/* About Code */
+
+
+
+.about {
+    background-color: azure;
+    border: 2px solid forestgreen;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 60px;
+    width: 55%;
+}
+
+.blurb {
+    font-size: 21px;
+    margin: auto; /* check */
+    width: 45%;
+}
+
+.blurb img {
+    border: 0px;
+    height: auto;
+    opacity: 0.6;
+    width: auto;
+    
+
+}
+
+#form {
+    border: 2px solid azure;
+    background-color: azure;
+    width: 30%;
+    padding-left: 30px;
+    margin-bottom: 80px;
+    margin: auto;
+}
+
+#form p {
+    padding-bottom: 5px;
+}
+
+input {
+    padding: 5px;
+}
+
