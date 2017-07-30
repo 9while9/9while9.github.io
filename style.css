@@ -1,63 +1,57 @@
 a {
-    text-decoration: none;
+    color: #228b22;
     font-weight: bold;
-    color: forestgreen;
+    text-decoration: none;
 }
 
 body {
-   /* width: 90%; */
-    margin: auto;
-    background-color: darkseagreen;
+    background-color: #8fbc8f;
+    font-family: rokkitt;
     font-size: 18px;
-    font-family: Rokkitt;
     height: 100vh;
-    /* Does this background image repeat or what? */
+    margin: auto;
 }
 
 h1 {
-    color: darkred;
+    color: #8b0000;
     font-family: cairo;
     margin-bottom: -30px;
 }
 
 h3 {
-    color: darkred;
-    font-family: cairo;
+    color: #8b0000;
+    font-family: cairo; 
     padding-left: 20px;
 }
 
 img {
-    border: 2px solid forestgreen;
+    border: 2px solid #228b22;
     border-radius: 2px;
     height: auto;
     margin-top: 15px;
     max-width: 100%;
 }
 
-
 .nav {
-  text-align: center;
-  border: 3px solid forestgreen;
-  width: 55%;
-  background-color: azure;
-  margin: auto;
-  border-radius: 6px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  padding: 3px 0px;
-  font-family: cairo;
-
+    background-color: #f0ffff;
+    border-radius: 6px;
+    font-family: cairo;  
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 3px 0px;
+    text-align: center;
+  
 }
 
 .nav li {
-  color: black;
-  display: inline-block;
-  font-size: 22px;
-  font-weight: bold;
-  height: 100%;
-  margin: 0px 0px 11px 0px;
-  padding: 20px 80px;
-
+    color: #000000;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    height: 100%;
+    margin: 0px 0px 11px 0px;
+    padding: 20px 80px;
 
 }
 
@@ -71,59 +65,52 @@ img {
 }
 
 #nav {
-    width: 22%;
-    padding: 20px 20px 0px 10px;
     font-family: cairo;
+    padding: 20px 20px 0px 10px;
+    width: 22%;
 }
 
 #nav li {
-    display: block;
-    border: 3px solid forestgreen;
+    border: 3px solid #228b22;
     border-radius: 15px;
+    display: block;
     font-size: 20px;
+    font-weight: bold;
     margin-bottom: 25px;
     padding: 10px 10px 10px 15px;
-    font-weight: bold;
- 
 }
 
 #title1 {
-    text-align: right;
-    margin-top: 525px;
-    color: forestgreen;
+    color: #228b22;
     font-family: cairo;
+    margin-top: 460px;
     padding-right: 30px;
+    text-align: right;
 }
 
 
-/* Main Page */
+/* Pins Page Code */
 
 .container {
-    width: 75%;
     margin: auto;
-    
-    
+    width: 75%;
 }
 
 .pic {
     padding-top: 20px;
     width: 50%;
-   
-    
 }
 
 .pin {
-    
+    background-color: #f0ffff;
+    border: 1px solid #000000;
+    border-radius: 6px;
     display: flex;
     justify-content: space-between;
     margin: auto;
-    width: 80%;
-    border: 1px solid black;
-    padding: 5px 15px 15px 15px;
-    border-radius: 6px;
-    background-color: azure;
     margin-bottom: 20px;
-    
+    padding: 5px 15px 15px 15px;
+    width: 80%;
 }
 
 
@@ -132,22 +119,20 @@ img {
 
 }
 
-.price .pic {
+.price pic {
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     
 }
 
-.price .pic2 {
+.price pic2 {
     position: absolute;
-    top: -70px;
-    left: -150px;
 }
 
 .text {
     margin-right: 70px;
-/*    background-color: darkseagreen; */
+/*    background-color: #8fbc8f; */
     padding: 0px ;
     padding-left: 20px;
     width: 50%;
@@ -155,19 +140,17 @@ img {
 
 
 
-/* Exhibition Code */
+/* Exhibits Page Code */
 
 .exhibits {
-    width: 84%;
-    margin: auto;
-    margin-bottom: 30px;
-    background-color: azure;
-    border: 2px solid forestgreen;
-    padding: 10px;
+    background-color: #f0ffff;
+    border: 2px solid #228b22;
     display: flex;
     justify-content: space-around;
- 
-
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 85%;
 }
 
 .ch {
@@ -176,23 +159,37 @@ img {
 
 .imgs {
     margin: auto;
-  
-}
-
-.imgs 3 {
-    margin: auto;
 }
 
 .imgs img {
+    border: 0px; 
     padding: 20px;
 }
 
 
 /* Resources Code */
 
+.buy {
+       
+    background-color: #f0ffff;
+    border: 2px solid #228b22;
+    column-count: 5;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 40px 0px 40px 70px;
+    
+}
+
+/* Check to see if this looks off in Github too */
+
+.buy ul {
+    list-style-type: none;
+    margin-left: -50px;
+}
+
 .go {
-    background-color: azure;
-    border: 2px solid forestgreen;
+    background-color: #f0ffff;
+    border: 2px solid #228b22;
     border-bottom-right-radius: 150px;
     margin: auto;
     margin-bottom: 30px;
@@ -200,22 +197,19 @@ img {
 }
 
 .read {
-   
-    background-color: azure;
-    border: 2px solid forestgreen;
+    background-color: #f0ffff;
+    border: 2px solid #228b22;
     border-top-left-radius: 150px;
     margin: auto;
-    padding: 20px 0px 30px 70px;
     margin-bottom: 30px;
     margin-top: 40px;
+    padding: 20px 0px 30px 70px;
 }
 
 .sources {
     font-size: 21px;
     margin: auto;
     width: 55%;
-    
- 
 }
 
 .sources h1 {
@@ -230,24 +224,14 @@ img {
     margin-left: 20px; 
 }
 
-.buy {
-       
-    background-color: azure;
-    border: 2px solid forestgreen;
-    margin: auto;
-    margin-bottom: 30px;
-    padding: 20px 0px 30px 70px;
-    
-}
-
 
 /* About Code */
 
 
 
 .about {
-    background-color: azure;
-    border: 2px solid forestgreen;
+    background-color: #f0ffff;
+    border: 2px solid #228b22;
     border-radius: 15px;
     display: flex;
     justify-content: space-between;
@@ -268,16 +252,15 @@ img {
     opacity: 0.6;
     width: auto;
     
-
 }
 
 #form {
-    border: 2px solid azure;
-    background-color: azure;
-    width: 30%;
-    padding-left: 30px;
-    margin-bottom: 80px;
+    background-color: #f0ffff;
+    border: 2px solid #228b22;
     margin: auto;
+    margin-bottom: 80px;
+    padding-left: 30px;
+    width: 30%;
 }
 
 #form p {
@@ -287,4 +270,6 @@ img {
 input {
     padding: 5px;
 }
+
+
 
