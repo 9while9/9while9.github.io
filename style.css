@@ -12,16 +12,20 @@ body {
     margin: auto;
 }
 
+
 h1 {
-    color: #8b0000;
-    font-family: cairo;
     margin-bottom: -30px;
 }
 
 h3 {
+    padding-left: 20px;
+}
+
+/* When I combine the headings, c9 gives me a warning... */
+
+h1, h3, h4 {
     color: #8b0000;
     font-family: cairo; 
-    padding-left: 20px;
 }
 
 img {
@@ -65,6 +69,7 @@ img {
 }
 
 #nav {
+    color: #000000;
     font-family: cairo;
     padding: 20px 20px 0px 10px;
     width: 22%;
@@ -115,20 +120,10 @@ img {
 
 
 .price img {
-    margin: 100px; /* not responsive anymore */
+    margin: 100px; 
 
 }
 
-.price pic {
-    position: relative;
-    top: 0;
-    left: 0;
-    
-}
-
-.price pic2 {
-    position: absolute;
-}
 
 .text {
     margin-right: 70px;
@@ -170,21 +165,20 @@ img {
 /* Resources Code */
 
 .buy {
-       
+    
     background-color: #f0ffff;
     border: 2px solid #228b22;
-    column-count: 5;
     margin: auto;
     margin-bottom: 30px;
-    padding: 40px 0px 40px 70px;
+    padding: 20px 0px 30px 70px;
     
 }
 
-/* Check to see if this looks off in Github too */
+/* Code for ul altered because looks different in Brackets */
 
 .buy ul {
+    column-count: 3;
     list-style-type: none;
-    margin-left: -50px;
 }
 
 .go {
@@ -207,6 +201,8 @@ img {
 }
 
 .sources {
+    background-color: #000000;
+    border: 20px solid #000000;
     font-size: 21px;
     margin: auto;
     width: 55%;
@@ -224,47 +220,30 @@ img {
     margin-left: 20px; 
 }
 
+#rnav {
+    margin-bottom: 0px;
+}
 
 /* About Code */
 
 
-
-.about {
-    background-color: #f0ffff;
-    border: 2px solid #228b22;
-    border-radius: 15px;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    margin-bottom: 60px;
-    width: 55%;
-}
-
 .blurb {
-    font-size: 21px;
-    margin: auto; /* check */
+    font-size: 25px;
+    margin: auto;
+    padding: 10px 0px;
     width: 45%;
 }
 
-.blurb img {
-    border: 0px;
-    height: auto;
-    opacity: 0.6;
-    width: auto;
-    
+
+.fill {
+    background-color: #f0ffff;
+    background-image: url(images/pins.jpg);
+    background-repeat: no-repeat;
 }
 
 #form {
-    background-color: #f0ffff;
-    border: 2px solid #228b22;
-    margin: auto;
-    margin-bottom: 80px;
-    padding-left: 30px;
+    padding: 5px 5px 10px 30px;
     width: 30%;
-}
-
-#form p {
-    padding-bottom: 5px;
 }
 
 input {
