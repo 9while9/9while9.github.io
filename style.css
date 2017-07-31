@@ -17,6 +17,10 @@ h1 {
     margin-bottom: -30px;
 }
 
+h2 {
+    font-family: cairo;
+}
+
 h3 {
     padding-left: 20px;
 }
@@ -38,7 +42,6 @@ img {
 
 .nav {
     background-color: #f0ffff;
-    border-radius: 6px;
     font-family: cairo;  
     margin: auto;
     margin-bottom: 20px;
@@ -49,7 +52,6 @@ img {
 }
 
 .nav li {
-    color: #000000;
     display: inline-block;
     font-size: 22px;
     font-weight: bold;
@@ -226,7 +228,6 @@ img {
 
 /* About Code */
 
-
 .blurb {
     font-size: 25px;
     margin: auto;
@@ -234,16 +235,20 @@ img {
     width: 45%;
 }
 
-
 .fill {
-    background-color: #f0ffff;
-    background-image: url(images/pins.jpg);
-    background-repeat: no-repeat;
+     background-color: #f0ffff;
+     color: #228b22;
+     padding: 15px;
+     text-align: center;
 }
 
 #form {
-    padding: 5px 5px 10px 30px;
-    width: 30%;
+    background-color: #f0ffff;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px 0px 15px 40px;
+    width: 15%;
 }
 
 input {
