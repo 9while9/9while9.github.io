@@ -25,7 +25,7 @@ h3 {
     padding-left: 20px;
 }
 
-/* When I combine the headings, c9 gives me a warning... */
+/* When I combine the headings, c9 gives me a warning. Should I just have repeated it under each one? */
 
 h1, h3, h4 {
     color: #8b0000;
@@ -97,6 +97,11 @@ img {
 
 
 /* Pins Page Code */
+
+
+.chaney img {
+    margin-top: 80px;
+}
 
 .container {
     margin: auto;
